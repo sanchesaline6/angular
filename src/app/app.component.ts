@@ -16,4 +16,11 @@ export class AppComponent {
   mensagem() {
     window.alert('Olá mundo!');
   }
+
+  //Objeto
+  pessoa: any = {
+    nome: 'Aline',
+    idade: 31,
+    cidade: 'Palmas',
+  };
 }
